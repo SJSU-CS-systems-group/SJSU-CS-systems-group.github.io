@@ -17,10 +17,10 @@ this terminal allowed me to log onto the machine and use it. the terminal itself
 
 today, we don’t use physical terminals; instead, we use terminal programs that create a window that we can use to give commands to the operating system. the terminal program’s job is the same as the physical terminal: it receives text to display from the operating system and sends any input it receives to the the operating system.
 
-<table border="0">
+<table>
 <tr>
 <td>
-:info: 
+![info](/assets/info.png) 
 </td>
 <td bgcolor="lightblue">
 if you are a windows user, i’ve become a huge fan of fluent terminal! it has a lot of great features and supports the normal windows command shell, powershell, and ubuntu.
@@ -50,12 +50,16 @@ its cool to do stuff on your own computer, but we live in the internet age. cool
 
 so there you have it! we have a terminal program that will give us a user interface to work with, a shell to run commands with, and ssh to run commands remotely. that is everything we need . need yes! but want? NO! we want more!
 
----
-**NOTE**
-
+<table>
+<tr>
+<td>
+![info](/assets/info.png) 
+</td>
+<td bgcolor="lightblue">
 you aren’t fully using ssh unless you have set up a private key pair, authorized_keys, and an ssh-agent. getting those things set up will make your life so so much easier!
-
----
+</td>
+</tr>
+</table>
 
 ## tmux
 
@@ -63,11 +67,15 @@ the mobility of our computers causes problems for ssh. when we change networks o
 
 this is were tmux comes in. tmux allows you to create a remote terminal that will stay running even if you lose your network connection. when you reconnect to the remote machine, you can attach to that terminal and resume where you left off. of course tmux has a lot more than just session preservation. it will also manage scrolling for you, allow you to create many remote virtual terminal buffers and windows that you can switch between or tile. many programmers never use or master tmux, but those who do impress their peers with both their environment and their productivity.
 
----
-**NOTE**
-
+<table>
+<tr>
+<td>
+![info](/assets/info.png) 
+</td>
+<td bgcolor="lightblue">
 screen was the precursor to tmux. it used to be the fall back if tmux wasn’t available, but tmux is pretty ubiquitous these days.
-
----
+</td>
+</tr>
+</table>
 
 understanding and using terminals, shells, ssh, and tmux effectively will allow you to be more productive in your work, but it doesn’t stop here. ssh has some really awesome tunneling features that can make you look like a network wizard. programs such as eternal terminal and mosh can make changing networks even more seamless. to really understand and become effective with these tools, you need to use them! providers such as oracle cloud and IBM cloud among others provide free remote virtual machines that can give you a chance to get experience.
