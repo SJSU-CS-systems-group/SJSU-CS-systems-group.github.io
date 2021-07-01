@@ -6,22 +6,21 @@ title: terminals and shells
 # terminals and shells
 
 when i first started using UNIX i was very confused by the term “shell”. in fairness, i find it to be a non-intuitive term! i was dialing up remote systems using my old MS-DOS machine, (yeah, i’m old.) but the concept of a shell seemed very foreign to me. in this blog, i’ll review some key concepts of terminals and shells that you need to understand to effectively use UNIX (mostly linux nowadays).
-terminal
+
+## terminal
 
 my first internship during college i used a VT-52 terminal to access what was then brand new SUN machines.
 
-![image of VT-52 terminal](https://commons.wikimedia.org/wiki/File:Terminal-dec-vt52.jpg#/media/File:Terminal-dec-vt52.jpg)
+![image of VT-52 terminal](https://upload.wikimedia.org/wikipedia/commons/1/1c/Terminal-dec-vt52.jpg)
 
 this terminal allowed me to log onto the machine and use it. the terminal itself was pretty dumb. it would display whatever text (80 columns by 24 lines) the computer sent to it and it would transmit my key presses to the computer. the terminal itself didn’t do any processing.
 
 today, we don’t use physical terminals; instead, we use terminal programs that create a window that we can use to give commands to the operating system. the terminal program’s job is the same as the physical terminal: it receives text to display from the operating system and sends any input it receives to the the operating system.
 
----
-**NOTE**
 
-if you are a windows user, i’ve become a use fan of fluent terminal! it has a lot of great features and supports the normal windows command shell, powershell, and ubuntu.
-
-for linux, i highly recommend konsole. (my dream is that someone ports konsole to windows!)
+> :information_source: if you are a windows user, i’ve become a use fan of fluent terminal! it has a lot of great features and supports the normal windows command shell, powershell, and ubuntu.
+> 
+> for linux, i highly recommend konsole. (my dream is that someone ports konsole to windows!)
 
 ---
 
