@@ -20,7 +20,7 @@ today, we don’t use physical terminals; instead, we use terminal programs that
 <table>
 <tr>
 <td>
-![info](/assets/info.png) 
+&#x2139;&#xFE0F;
 </td>
 <td bgcolor="lightblue">
 if you are a windows user, i’ve become a huge fan of fluent terminal! it has a lot of great features and supports the normal windows command shell, powershell, and ubuntu.
@@ -53,7 +53,7 @@ so there you have it! we have a terminal program that will give us a user interf
 <table>
 <tr>
 <td>
-![info](/assets/info.png) 
+&#x2139;&#xFE0F;
 </td>
 <td bgcolor="lightblue">
 you aren’t fully using ssh unless you have set up a private key pair, authorized_keys, and an ssh-agent. getting those things set up will make your life so so much easier!
@@ -70,7 +70,7 @@ this is were tmux comes in. tmux allows you to create a remote terminal that wil
 <table>
 <tr>
 <td>
-![info](/assets/info.png) 
+&#x2139;&#xFE0F;
 </td>
 <td bgcolor="lightblue">
 screen was the precursor to tmux. it used to be the fall back if tmux wasn’t available, but tmux is pretty ubiquitous these days.
