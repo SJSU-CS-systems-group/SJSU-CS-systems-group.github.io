@@ -22,12 +22,12 @@ title: SJSU CS systems group
 email: ben.reed@sjsu.edu
 description: >- # this means to ignore newlines until "baseurl:"
     happenings in the SJSU CS systems group
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sjsu-cs-systems-group
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 

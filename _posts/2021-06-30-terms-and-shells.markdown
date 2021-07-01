@@ -9,21 +9,29 @@ when i first started using UNIX i was very confused by the term “shell”. in 
 terminal
 
 my first internship during college i used a VT-52 terminal to access what was then brand new SUN machines.
-By ClickRick - Own work, CC BY-SA 3.0, 
+
+![image of VT-52 terminal](https://commons.wikimedia.org/wiki/File:Terminal-dec-vt52.jpg#/media/File:Terminal-dec-vt52.jpg)
 
 this terminal allowed me to log onto the machine and use it. the terminal itself was pretty dumb. it would display whatever text (80 columns by 24 lines) the computer sent to it and it would transmit my key presses to the computer. the terminal itself didn’t do any processing.
 
 today, we don’t use physical terminals; instead, we use terminal programs that create a window that we can use to give commands to the operating system. the terminal program’s job is the same as the physical terminal: it receives text to display from the operating system and sends any input it receives to the the operating system.
 
+---
+**NOTE**
+
 if you are a windows user, i’ve become a use fan of fluent terminal! it has a lot of great features and supports the normal windows command shell, powershell, and ubuntu.
 
 for linux, i highly recommend konsole. (my dream is that someone ports konsole to windows!)
+
+---
 
 ## the shell
 
 actually, the terminal doesn’t talk directly to the operating system; it interacts with a shell. (whether the shell is considered part of the operating system is a much larger, mostly irrelevant, semantic argument.) a shell is another program that presents an interactive environment to a user. sometimes that “user” is a script, but we are focused on what happens when we use a shell.
 
 when you start up a terminal and see a prompt, that prompt you see is coming from the shell.
+
+![shell with ls command](/assets/shell.png)
 
 shells have evolved over time. on my first computer the shell was a BASIC interpreter. you can even use python as a shell if you would like, but most shells today resemble the original bourne shell. in these shells you issue commands with parameters (AKA arguments) separated by spaces. make sure to use quotes if you want to have parameters with spaces   some commands will be interpreted directly by the shell, but many, like the ls command in the example, will be other programs that the shell will run for you.
 
@@ -37,7 +45,12 @@ its cool to do stuff on your own computer, but we live in the internet age. cool
 
 so there you have it! we have a terminal program that will give us a user interface to work with, a shell to run commands with, and ssh to run commands remotely. that is everything we need . need yes! but want? NO! we want more!
 
-you aren’t really using ssh unless you have set up a private key pair, authorized_keys, and an ssh-agent. getting those things set up will make your life so so much easier!
+---
+**NOTE**
+
+you aren’t fully using ssh unless you have set up a private key pair, authorized_keys, and an ssh-agent. getting those things set up will make your life so so much easier!
+
+---
 
 ## tmux
 
@@ -45,6 +58,11 @@ the mobility of our computers causes problems for ssh. when we change networks o
 
 this is were tmux comes in. tmux allows you to create a remote terminal that will stay running even if you lose your network connection. when you reconnect to the remote machine, you can attach to that terminal and resume where you left off. of course tmux has a lot more than just session preservation. it will also manage scrolling for you, allow you to create many remote virtual terminal buffers and windows that you can switch between or tile. many programmers never use or master tmux, but those who do impress their peers with both their environment and their productivity.
 
+---
+**NOTE**
+
 screen was the precursor to tmux. it used to be the fall back if tmux wasn’t available, but tmux is pretty ubiquitous these days.
+
+---
 
 understanding and using terminals, shells, ssh, and tmux effectively will allow you to be more productive in your work, but it doesn’t stop here. ssh has some really awesome tunneling features that can make you look like a network wizard. programs such as eternal terminal and mosh can make changing networks even more seamless. to really understand and become effective with these tools, you need to use them! providers such as oracle cloud and IBM cloud among others provide free remote virtual machines that can give you a chance to get experience.
