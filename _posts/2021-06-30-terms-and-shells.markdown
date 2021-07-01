@@ -17,12 +17,18 @@ this terminal allowed me to log onto the machine and use it. the terminal itself
 
 today, we don’t use physical terminals; instead, we use terminal programs that create a window that we can use to give commands to the operating system. the terminal program’s job is the same as the physical terminal: it receives text to display from the operating system and sends any input it receives to the the operating system.
 
+<table>
+<tr>
+<td>
+:info:
+</td>
+<td>
+if you are a windows user, i’ve become a use fan of fluent terminal! it has a lot of great features and supports the normal windows command shell, powershell, and ubuntu.
 
-> :information_source: if you are a windows user, i’ve become a use fan of fluent terminal! it has a lot of great features and supports the normal windows command shell, powershell, and ubuntu.
-> 
-> for linux, i highly recommend konsole. (my dream is that someone ports konsole to windows!)
-
----
+for linux, i highly recommend konsole. (my dream is that someone ports konsole to windows!)
+</td>
+</tr>
+</table>
 
 ## the shell
 
